@@ -1,0 +1,58 @@
+*{
+    font-family: "Proxima Nova";
+}
+.app{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.search-form{
+    margin-top: 30px;
+}
+/*
+    for responsive
+*/
+@media (max-width: 650px){
+    .search-form{
+        display: none;
+    }
+}
+header > *{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 20px;
+}
+.optionBook{
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px;
+}
+.contentArea > aside{
+    padding: 10px 10px;
+}
+.contentArea > aside:first-child{
+    width: 20%;
+    float: left;    
+}
+.contentArea > aside:last-child{
+    width: 75%;
+    float: right;
+    right: 0;
+}
+.imgBook{
+    background: silver;
+    width: 65%;
+    padding: 70px 10px;
+    min-height: 40px;
+    text-align: center;
+    color: #777
+}
+.titleBook{
+    font-size: 20px;
+    font-weight: bold;
+}
+a{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
