@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Finder challenge</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css?family=Proxima+Nova" rel="stylesheet" type="text/css" />
+        <link href="../vendor/pure/pure-min.css" rel="stylesheet" />
+        <link href="styles/index.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../vendor/awesomplete.css" />
+        <script src="../vendor/awesomplete.js"></script>
+    </head>
+    <body class="app">
+        <div class="content">
+            <header>
+                <h1>
+                    Finder challenge
+                </h1>
+                <form onsubmit="return false;">
+                    <input type="text" autofocus="" id="txtSearch" />
+                    <input type="button" id="btnSearch" value="Buscar"/>
+                    <a>Guardar búsqueda</a>
+                </form>
+            </header>
+            <section class="contentArea">
+                <aside>
+                    <h3>Bùsquedas guardadas</h3>
+                    <section>
+                        <a>terror puro</a><br>
+                        <a>Editar</a> | <a>Eliminar</a><br>
+                        <a>search drama</a><br>
+                        <br>
+                        <a>comedias en ingles</a>
+                    </section>
+                    <br>
+                    <br>
+                    <h3>Categorìas</h3>
+                    <section>
+                        Todos<br>
+                        <a>Terror</a><br>
+                        <a>Comedia</a><br>
+                        <a>Drama</a>
+                    </section>
+                    <br>
+                    <br>
+                    <h3>Idioma</h3>
+                    <section>
+                        Todos<br>
+                        <a>Inglés</a><br>
+                        <a>Español</a><br>
+                        <a>Portugués</a>
+                    </section>
+                    <br>
+                    <br>
+                    <h3>Publicación</h3>
+                    <section>
+                        Todos<br>
+                        <a>Hoy</a><br>
+                        <a>Hace una semana</a><br>
+                        <a>Hace un mes</a><br>
+                        <a>Hace un año</a>
+                    </section>
+                    <br>
+                    <br>
+                    <h3>Presentación</h3>
+                    <section>
+                        <a>Impreso</a><br>
+                        <a>Digital</a><br>
+                        Impreso y digital
+                    </section>
+                </aside>
+                <aside id="listBook">
+
+                </aside>
+            </section>
+        </div>
+        <script src="../vendor/underscore/underscore-min.js"></script>
+
+        <script src="scripts/global.js"></script>
+        <script src="scripts/search-form.js"></script>
+        <script src="scripts/app.js"></script>
+    </body>
+</html>
