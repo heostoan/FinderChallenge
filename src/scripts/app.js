@@ -3,3 +3,4 @@
 */
 
 searchForm();
+disableSearch();
